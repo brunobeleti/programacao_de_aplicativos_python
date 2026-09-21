@@ -1,47 +1,56 @@
-#1. Estrutura Condicionais
+# 1.Estruturas condicionais
 
 nota = 6
 
 if nota >= 7:
-    print("Aprovado")
+    print("\nAprovado")
 elif nota >= 5:
-    print("Recuperação")
+    print("\nRecuperação")
 else:
-    print("Reprovado")
+    print("\nReprovado")
 
-#2. Condicionais e Operadores Lógicos
+# 2.Condicionais e operadores lógicos
 
 idade = 20
 ingresso = True
 
 if idade >= 18 and ingresso:
-    print("Entrada Permitida")
+    print("\nEntrada permitida!\n")
 else:
-    print("Entrada não permitida")
+    print("\nEntrada recusada!\n")
 
-#3. Estruta de Repetição while
+# 3.Estrutura de repetição
+
 contador = 1
 
 while contador <= 5:
     print(contador)
-    contador +=5
+    contador += 1
 
-#4. Estrutura de repetição for
-for numero in range (1,6):
-    print(numero)
+# 4.Estrutura de repetição for
 
-#5. Percorrendo uma lista
+print("")
+
+for i in range(1, 6):
+    print(i)
+
+# 5. Percorrendo uma lista
+
+print("")
+
 nomes = ["Ana", "Carlos", "João", "Maria"]
 
-for nome in nomes:
-    print(nome)
+for i in nomes:
+    print(i)
 
-#6. Break, Continue, Pass
-for numero in range(1,11)
+# 6. Break, Continue e Pass
 
-    if numero == 6
-        #break
+print("")
+
+for i in range (1, 11):
+    if i == 6:
+        break
         #continue
         #pass
-    print(numero)
 
+    print(i)
