@@ -109,3 +109,14 @@ aluno = {
     "nota": 8.5
 }
 print(aluno)
+
+# 13. Acessando valores do dicionário
+
+print(aluno["nome"])
+print(aluno["idade"])
+print(aluno["nota"])
+
+# 14. Alterando valores
+
+aluno["nota"] = 9.0
+print(aluno)
